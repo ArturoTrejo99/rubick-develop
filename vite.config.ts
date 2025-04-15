@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx'], // agrega '.jsx' si no está
-  },
+  resolve: {extensions: ['.ts', '.tsx', '.js', '.jsx'], },
+  base:'/Rubick-System/'
 })

@@ -1,4 +1,4 @@
-import logo from './assets/1.jpg';
+import logo from '../assets/1.jpg';
 
 export default function Home() {
   return (

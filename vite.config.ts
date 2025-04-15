@@ -6,4 +6,5 @@ export default defineConfig({
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'], // agrega '.jsx' si no está
   },
+  base:'/rubick-develop/'
 })
